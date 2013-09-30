@@ -35,7 +35,7 @@
 #include <string.h>
 
 #define DEFAULT_BAUDRATE   115200
-#define DEFAULT_SERDEVICE  "/dev/ttyS0"
+#define DEFAULT_SERDEVICE  "/dev/ttyAMA0"
 #define ENDMINITERM        0x1d
 
 volatile int stop = 0;
